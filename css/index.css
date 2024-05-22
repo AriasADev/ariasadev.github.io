@@ -18,8 +18,8 @@ body {
 .main {
   margin: 0;
   position: absolute;
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
   color: white;
   text-align: center;
 }
