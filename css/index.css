@@ -18,14 +18,14 @@ body {
 .main {
   margin: 0;
   position: absolute;
-  top: 50%;
-  left: 0%;
+  top: 100%;
+  left: 100%;
   width: 50%;
   height: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color: white;
-
+  text-align: center;
 }
 
 /* .main {
