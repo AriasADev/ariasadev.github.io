@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-  margin: 0;
+  /* margin: 0;
   position: absolute;
   top: 100%;
   left: 100%;
@@ -24,7 +24,7 @@ body {
   height: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: white;
+  color: white; */
   text-align: center;
 }
 
