@@ -16,7 +16,7 @@ body {
 
 }
 
-.main {
+#content{
   margin: 0;
   padding: 0px;
   position: absolute;
@@ -24,8 +24,8 @@ body {
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+  
 }
-
 * {
   margin: 0;
   padding: 0;
