@@ -42,7 +42,22 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Ensure the profile image is responsive */
 #profile {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  border-style: solid;
+  border-width: 5px;
+  align-items: center;
+  border: 10px solid #c260f7;
+}
+
+
+/* #profile {
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -53,7 +68,7 @@ body {
   border-width: 5px;
   align-items: center;
   border: 10px solid #c260f7;
-}
+} */
 
 span {
   color: white;
