@@ -6,6 +6,14 @@ html, body {
   color: #fff
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   position: reletive;
 }
@@ -13,7 +21,7 @@ body {
 #background {
   height: 100%;
   width: 100%;
-
+  z-index: 1000;
 }
 
 #content{
@@ -33,6 +41,89 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+#profile {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  350px;
+  height: 350px;
+  border-style: solid;
+  border-width: 5px;
+  align-items: center;
+  border: 10px solid #c260f7;
+}
+
+span {
+  color: white;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 75px;
+  white-space: pre-line;
+}
+
+.button {
+  background-color: #001eff;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: white;
+  border: none;
+  color: #001eff;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+#spacer{
+  height: 20px;
+}
+
+#spacer-two{
+  height: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #content{
+  margin: 0;
+  padding: 0px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+}
+
+.header {
+  font-size: 55px;
+  line-height: 75px;
+  white-space: nowrap;
+}
+
+
 
 /* .main {
   display: flex;
