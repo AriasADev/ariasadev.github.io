@@ -95,12 +95,12 @@ h2 {
   display: inline-block;
   font-size: 24px;
   border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, col3s ease;
 }
 
 .button:hover {
   background-color: white;
-  color: var(--heliotrope-dark); /* Dark color for text/icon on hover */
+  color: var(--heliotrope-dark); /* Dark colo text/icon on hover */
 }
 
 /* Boxicons icon styling */
@@ -154,20 +154,20 @@ h2 {
 
 .bio {
   color: white;
-  font-size: 18px; /* Small but readable text */
-  margin-top: 15px; /* Adds space between image and bio */
-  margin-bottom: 20px; /* Adds space between bio and social buttons */
+  font-size: 18px; /* Small but readable text
+  margin-top: 15px; /* Adds space between imad bio */
+  margin-bottom: 20px; /* Adds space between nd social buttons */
   text-align: center;
   font-weight: bold;
 }
 
 .bio span {
-  display: inline-block; /* Allows each word to be hovered independently */
-  transition: color 0.3s ease; /* Smooth transition */
+  display: inline-block; /* Allows each word  hovered independently */
+  transition: color 0.3s ease; /* Smooth trann */
 }
 
 .bio span:hover {
-  color: var(--electric-violet-dark); /* Hover color */
+  color: var(--electric-violet-dark); /* Hoveor */
 }
 
 .heading {
