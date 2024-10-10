@@ -1,3 +1,17 @@
+:root {
+  --heliotrope-light: #d984fc;
+  --heliotrope-medium: #d660fc;
+  --heliotrope-dark: #ca43fc;
+  --heliotrope-darker: #e442fc;
+  --mauve-light: #e3b1fc;
+  --mauve-dark: #d49cfc;
+  --electric-violet-light: #cb15fc;
+  --electric-violet-medium: #ca2ffc;
+  --electric-violet-dark: #aa0dfc;
+  --electric-violet-darker: #b412fc;
+}
+
+
 html, body {
   width: 100%;
   height: 100%;
@@ -12,6 +26,7 @@ html, body {
   box-sizing: border-box;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 body {
@@ -36,14 +51,6 @@ body {
   left: 50%;
   
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  
-}
 
 
 #profile {
@@ -53,11 +60,11 @@ body {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  width: 350px;
+  width: 300px;
   border-style: solid;
   border-width: 5px;
   align-items: center;
-  border: 10px solid #c260f7;
+  border: 5px solid #c260f7;
 }
 
 span {
@@ -70,37 +77,39 @@ h2 {
   white-space: pre-line;
 }
 
+/* Social media buttons */
+.social-media {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-top: 20px;
+}
+
 .button {
-  background-color: #001eff;
+  background-color: var(--heliotrope-dark);
   border: none;
   color: white;
-  padding: 8px;
+  padding: 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 24px;
   border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button:hover {
   background-color: white;
-  border: none;
-  color: #001eff;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16;
-  margin: 4px 2px;
-  border-radius: 50%;
+  color: var(--heliotrope-dark); /* Dark color for text/icon on hover */
 }
 
-.social-media {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
+/* Boxicons icon styling */
+.button i {
+  font-size: 24px;
+  line-height: 1;
 }
+
+
 
 #spacer{
   height: 20px;
@@ -142,3 +151,22 @@ h2 {
   justify-content: center;
   align-items: center;
 } */ 
+
+.bio {
+  color: white;
+  font-size: 18px; /* Small but readable text */
+  margin-top: 15px; /* Adds space between image and bio */
+  margin-bottom: 20px; /* Adds space between bio and social buttons */
+  text-align: center;
+  font-weight: bold;
+}
+
+.bio span {
+  display: inline-block; /* Allows each word to be hovered independently */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.bio span:hover {
+  color: var(--electric-violet-dark); /* Hover color */
+}
+
