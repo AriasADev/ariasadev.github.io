@@ -170,3 +170,6 @@ h2 {
   color: var(--electric-violet-dark); /* Hover color */
 }
 
+.heading {
+  color: var(--electric-violet-dark);
+}
