@@ -173,3 +173,7 @@ h2 {
 .heading {
   color: var(--electric-violet-dark);
 }
+
+.helloHeading {
+  color: white;
+}
