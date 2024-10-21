@@ -154,24 +154,23 @@ h2 {
 
 .bio {
   color: white;
-  font-size: 18px; /* Small but readable text
-  margin-top: 15px; /* Adds space between imad bio */
-  margin-bottom: 20px; /* Adds space between nd social buttons */
+  font-size: 18px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: bold;
 }
 
 .bio span {
-  display: inline-block; /* Allows each word  hovered independently */
-  transition: color 0.3s ease; /* Smooth trann */
+  display: inline-block;
+  transition: color 0.3s ease; 
 }
 
 .bio span:hover {
-  color: var(--electric-violet-dark); /* Hoveor */
+  color: var(--electric-violet-dark); 
 }
 
 .heading {
-  color: var(--heliotrope-dark);
+  color: var(--electric-violet-dark);
 }
 
 h3 {
