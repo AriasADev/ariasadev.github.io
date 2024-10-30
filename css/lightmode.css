@@ -40,6 +40,6 @@
 
 .button:hover {
     background-color: white;
-    color: var(--heliotrope-dark); /* Dark colo text/icon on hover */
+    color: var(--heliotrope-dark); /* Dark colour text/icon on hover */
   }
   
