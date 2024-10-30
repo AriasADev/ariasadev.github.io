@@ -53,20 +53,6 @@ body {
 }
 
 
-#profile {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  width: 300px;
-  border-style: solid;
-  border-width: 5px;
-  align-items: center;
-  border: 5px solid #c260f7;
-}
-
 span {
   color: white;
 }
@@ -85,23 +71,6 @@ h2 {
   margin-top: 20px;
 }
 
-.button {
-  background-color: var(--heliotrope-dark);
-  border: none;
-  color: white;
-  padding: 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease, col3s ease;
-}
-
-.button:hover {
-  background-color: white;
-  color: var(--heliotrope-dark); /* Dark colo text/icon on hover */
-}
 
 /* Boxicons icon styling */
 .button i {
